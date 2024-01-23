@@ -1,0 +1,27 @@
+type: section
+name: Named Tuples
+id: named-tuples
+contents:
+  - name: Introduction
+    type: explanation
+    id: introduction
+    documentation:
+      en: explanation-introduction.en.md
+  - name: Color
+    type: exercise
+    id: color
+    documentation:
+      en: assignment-color.en.md
+    difficulty: 2
+    judge:
+      type: pytest
+      file: test-color.py
+  - name: Movie
+    type: exercise
+    id: movie
+    documentation:
+      en: assignment-movie.en.md
+    difficulty: 2
+    judge:
+      type: pytest
+      file: test-movie.py

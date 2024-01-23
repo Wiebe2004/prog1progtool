@@ -1,0 +1,231 @@
+type: section
+name: Dictionaries
+id: dictionaries
+contents:
+  - name: Literals
+    type: explanation
+    id: literals
+    documentation:
+      en: explanation-literals.en.md
+    topics:
+      introduces:
+        - dictionaries
+        - dictionary literals
+  - name: Ingredients
+    type: exercise
+    id: ingredients
+    documentation:
+      en: assignment-ingredients.en.md
+    difficulty: 1
+    judge:
+      type: pytest
+      file: test-ingredients.py
+    topics:
+      must_come_after:
+        - dictionary literals
+  - name: Lookup
+    type: explanation
+    id: lookup
+    documentation:
+      en: explanation-lookup.en.md
+    topics:
+      introduces:
+        - dictionary lookup
+  - name: Desktop
+    type: exercise
+    id: desktop
+    documentation:
+      en: assignment-desktop.en.md
+    difficulty: 2
+    judge:
+      type: pytest
+      file: test-desktop.py
+    topics:
+      must_come_after:
+        - dictionary lookup
+        - lists
+  - name: Insertion
+    type: explanation
+    id: insertion
+    documentation:
+      en: explanation-insertion.en.md
+    topics:
+      introduces:
+        - dictionary insertion
+  - name: Rankings
+    type: exercise
+    id: rankings
+    documentation:
+      en: assignment-rankings.en.md
+    difficulty: 2
+    judge:
+      type: pytest
+      file: test-rankings.py
+    topics:
+      must_come_after:
+        - dictionary insertion
+  - name: Deletion
+    type: explanation
+    id: deletion
+    documentation:
+      en: explanation-deletion.en.md
+    topics:
+      introduces:
+        - dictionary deletion
+  - name: Selling Shoes
+    type: exercise
+    id: sell
+    documentation:
+      en: assignment-sell.en.md
+    difficulty: 2
+    judge:
+      type: pytest
+      file: test-sell.py
+    topics:
+      must_come_after:
+        - dictionary insertion
+        - dictionary deletion
+  - name: Membership Testing
+    type: explanation
+    id: membership
+    documentation:
+      en: explanation-membership.en.md
+  - name: Orbit Chain
+    type: exercise
+    id: orbit-chain
+    documentation:
+      en: assignment-orbit-chain.en.md
+    difficulty: 3
+    judge:
+      type: pytest
+      file: test-orbit-chain.py
+  - name: Enumerating
+    type: explanation
+    id: enumerating
+    documentation:
+      en: explanation-enumerating.en.md
+    topics:
+      introduces:
+        - dict.keys
+        - dict.values
+        - dict.items
+      must_come_after:
+        - tuples
+  - name: Combine
+    type: exercise
+    id: combine
+    documentation:
+      en: assignment-combine.en.md
+    difficulty: 3
+    judge:
+      type: pytest
+      file: test-combine.py
+    topics:
+      must_come_after:
+        - dictionaries
+        - dictionary lookup
+        - dictionary insertion
+        - dict.items
+  - name: Lookup Default
+    type: explanation
+    id: lookup-default
+    documentation:
+      en: explanation-lookup-default.en.md
+    topics:
+      introduces:
+        - dict.get
+        - dict.setdefault
+  - name: Counts
+    type: exercise
+    id: counts
+    documentation:
+      en: assignment-counts.en.md
+    difficulty: 3
+    judge:
+      type: pytest
+      file: test-counts.py
+    topics:
+      must_come_after:
+        - dictionaries
+        - lists
+        - dict.get
+  - name: Election Winner
+    type: exercise
+    id: election-winner
+    documentation:
+      en: assignment-election-winner.en.md
+    difficulty: 3
+    judge:
+      type: pytest
+      file: test-election-winner.py
+    topics:
+      must_come_after:
+        - dictionaries
+        - lists
+        - dict.get
+  - name: Group By
+    type: exercise
+    id: group-by-first-letter
+    documentation:
+      en: assignment-group-by-first-letter.en.md
+    difficulty: 3
+    judge:
+      type: pytest
+      file: test-group-by-first-letter.py
+    topics:
+      must_come_after:
+        - dictionaries
+        - lists
+        - for loop
+        - dict.setdefault
+  - name: Inverse Lookup
+    type: exercise
+    id: inverse-lookup
+    documentation:
+      en: assignment-inverse-lookup.en.md
+    difficulty: 3
+    judge:
+      type: pytest
+      file: test-inverse-lookup.py
+    topics:
+      must_come_after:
+        - dictionaries
+        - lists
+        - list.append
+        - dict.items
+  - name: Cake
+    type: exercise
+    id: cake
+    documentation:
+      en: assignment-cake.en.md
+    difficulty: 4
+    judge:
+      type: pytest
+      file: test-cake.py
+    topics:
+      must_come_after:
+        - dict.get
+        - dict.items
+        - min
+  - name: Selling Shoes 2
+    type: exercise
+    id: sell2
+    documentation:
+      en: assignment-sell2.en.md
+    difficulty: 4
+    judge:
+      type: pytest
+      file: test-sell2.py
+    topics:
+      must_come_after:
+        - dictionary insertion
+        - dictionary deletion
+  - name: Pattern Matching
+    type: exercise
+    id: matches-pattern
+    documentation:
+      en: assignment-matches-pattern.en.md
+    difficulty: 4
+    judge:
+      type: pytest
+      file: test-matches-pattern.py

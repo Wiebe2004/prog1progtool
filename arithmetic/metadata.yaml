@@ -1,0 +1,403 @@
+type: section
+name: Arithmetic
+id: arithmetic
+contents:
+  - name: Functions
+    id: functions
+    type: explanation
+    documentation:
+      en: explanation-functions.en.md
+      nl: explanation-functions.nl.md
+    topics:
+      introduces:
+        - functions
+        - return
+  - name: Five
+    id: five
+    documentation:
+      en: assignment-five.en.md
+      nl: assignment-five.nl.md
+    type: exercise
+    difficulty: 1
+    topics:
+      must_come_after:
+        - functions
+        - return
+    judge:
+      type: pytest
+      file: test-five.py
+  - name: Parameters
+    type: explanation
+    id: parameters
+    documentation:
+      en: explanation-parameters.en.md
+    topics:
+      introduces:
+        - parameters
+      must_come_after:
+        - functions
+        - return
+  - name: Identifiers
+    type: explanation
+    id: identifiers
+    documentation:
+      en: explanation-identifiers.en.md
+  - name: Triple
+    id: triple
+    documentation:
+      en: assignment-triple.en.md
+    type: exercise
+    difficulty: 1
+    judge:
+      type: pytest
+      file: test-triple.py
+    topics:
+      must_come_after:
+        - functions
+        - return
+        - parameters
+  - name: Operators
+    id: operators
+    type: explanation
+    documentation:
+      en: explanation-operators.en.md
+    topics:
+      introduces:
+        - arithmetic operators
+  - name: Average
+    id: average
+    documentation:
+      en: assignment-average.en.md
+    type: exercise
+    difficulty: 2
+    judge:
+      type: pytest
+      file: test-average.py
+    topics:
+      must_come_after:
+        - arithmetic operators
+        - functions
+        - return
+        - parameters
+  - name: Distance
+    id: distance
+    documentation:
+      en: assignment-distance.en.md
+    type: exercise
+    difficulty: 2
+    judge:
+      type: pytest
+      file: test-distance.py
+    topics:
+      must_come_after:
+        - functions
+        - return
+        - parameters
+        - arithmetic operators
+  - name: Numbers
+    id: int-vs-float
+    documentation:
+      en: explanation-int-vs-float.en.md
+    type: explanation
+    topics:
+      introduces:
+        - int
+        - float
+  - name: Rounding
+    type: explanation
+    id: rounding
+    documentation:
+      en: explanation-rounding.en.md
+    topics:
+      introduces:
+        - floor
+        - ceil
+        - round
+      must_come_after:
+        - float
+        - comments
+  - name: Buses
+    id: buses-needed
+    documentation:
+      en: assignment-buses-needed.en.md
+    type: exercise
+    difficulty: 2
+    judge:
+      type: pytest
+      file: test-buses-needed.py
+    topics:
+      must_come_after:
+        - functions
+        - return
+        - parameters
+        - ceil
+  - name: Pizza
+    type: exercise
+    id: pizza
+    documentation:
+      en: assignment-pizza.en.md
+    difficulty: 2
+    judge:
+      type: pytest
+      file: test-pizza.py
+    topics:
+      must_come_after:
+        - functions
+        - return
+        - parameters
+        - ceil
+  - name: Floor Division
+    id: floor-division
+    documentation:
+      en: explanation-floor-division.en.md
+    type: explanation
+    topics:
+      introduces:
+        - true division
+        - floor division
+      must_come_after:
+        - int
+        - float
+  - name: Cake
+    id: cake
+    documentation:
+      en: assignment-cake.en.md
+    type: exercise
+    difficulty: 1
+    judge:
+      type: pytest
+      file: test-cake.py
+    topics:
+      must_come_after:
+        - floor division
+        - functions
+        - return
+        - parameters
+  - name: Candy
+    id: candy-per-child
+    documentation:
+      en: assignment-candy-per-child.en.md
+    type: exercise
+    difficulty: 2
+    judge:
+      type: pytest
+      file: test-candy-per-child.py
+    topics:
+      must_come_after:
+        - floor division
+        - functions
+        - return
+        - parameters
+  - name: Min/Max
+    id: min-max
+    type: explanation
+    documentation:
+      en: explanation-min-max.en.md
+    topics:
+      introduces:
+        - min
+        - max
+  - name: Cake 2
+    id: cake2
+    documentation:
+      en: assignment-cake2.en.md
+    type: exercise
+    difficulty: 2
+    judge:
+      type: pytest
+      file: test-cake2.py
+    topics:
+      must_come_after:
+        - functions
+        - return
+        - parameters
+        - floor division
+        - min
+  - name: Local Variables
+    id: locals
+    type: explanation
+    topics:
+        introduces:
+          - local variables
+        must_come_after:
+          - functions
+    documentation:
+      en: explanation-locals.en.md
+  - name: Cake 3
+    id: cake3
+    documentation:
+      en: assignment-cake3.en.md
+    type: exercise
+    difficulty: 2
+    judge:
+      type: pytest
+      file: test-cake3.py
+    topics:
+      must_come_after:
+        - functions
+        - return
+        - parameters
+        - floor division
+        - min
+  - name: Cake 4
+    id: cake4
+    documentation:
+      en: assignment-cake4.en.md
+    type: exercise
+    difficulty: 2
+    judge:
+      type: pytest
+      file: test-cake4.py
+    topics:
+      must_come_after:
+        - functions
+        - return
+        - parameters
+        - floor division
+        - min
+  - name: Duration
+    id: duration
+    documentation:
+      en: assignment-duration.en.md
+    type: exercise
+    topics:
+      must_come_before:
+        - modulo
+    difficulty: 3
+    judge:
+      type: pytest
+      file: test-duration.py
+    topics:
+      must_come_after:
+        - functions
+        - return
+        - parameters
+        - floor division
+  - name: Assignment
+    type: explanation
+    id: assignment
+    documentation:
+      en: explanation-assignment.en.md
+    topics:
+      introduces:
+        - assignment
+        - augmented assignment
+      must_come_after:
+        - print
+  - name: Coins
+    id: coins
+    documentation:
+      en: assignment-coins.en.md
+    type: exercise
+    difficulty: 3
+    judge:
+      type: pytest
+      file: test-coins.py
+    topics:
+      must_come_after:
+        - functions
+        - return
+        - parameters
+        - floor division
+        - augmented assignment
+  - name: Modulo
+    id: modulo
+    documentation:
+      en: explanation-modulo.en.md
+    type: explanation
+    topics:
+      introduces:
+        - modulo
+  - name: Leftover Candy
+    id: leftover-candy
+    documentation:
+      en: assignment-leftover-candy.en.md
+    type: exercise
+    difficulty: 2
+    judge:
+      type: pytest
+      file: test-leftover-candy.py
+  - name: Internet Costs
+    id: internet-costs
+    documentation:
+      en: assignment-internet-costs.en.md
+    type: exercise
+    difficulty: 2
+    judge:
+      type: pytest
+      file: test-internet-costs.py
+    topics:
+      must_come_after:
+        - functions
+        - return
+        - parameters
+        - ceil
+  - name: Middle
+    id: middle
+    documentation:
+      en: assignment-middle.en.md
+    type: exercise
+    difficulty: 3
+    judge:
+      type: pytest
+      file: test-middle.py
+  - name: Last Digit
+    id: last-digit
+    documentation:
+      en: assignment-last-digit.en.md
+    type: exercise
+    difficulty: 2
+    judge:
+      type: pytest
+      file: test-last-digit.py
+    topics:
+      must_come_after:
+        - functions
+        - return
+        - parameters
+        - modulo
+  - name: Drop Last Digit
+    id: drop-last-digit
+    documentation:
+      en: assignment-drop-last-digit.en.md
+    type: exercise
+    difficulty: 2
+    judge:
+      type: pytest
+      file: test-drop-last-digit.py
+    topics:
+      must_come_after:
+        - functions
+        - return
+        - parameters
+        - floor division
+  - name: Next Player
+    id: next-player
+    documentation:
+      en: assignment-next-player.en.md
+    type: exercise
+    difficulty: 2
+    judge:
+      type: pytest
+      file: test-next-player.py
+    topics:
+      must_come_after:
+        - functions
+        - return
+        - parameters
+        - modulo
+  - name: Next Player Renumbered
+    id: next-player2
+    documentation:
+      en: assignment-next-player2.en.md
+    type: exercise
+    difficulty: 2
+    judge:
+      type: pytest
+      file: test-next-player2.py
+    topics:
+      must_come_after:
+        - functions
+        - return
+        - parameters
+        - modulo

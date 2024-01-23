@@ -1,0 +1,39 @@
+type: section
+name: Programming 1
+id: p1
+contents:
+  # - type: link
+  #   location: demo
+  #   tags:
+  #   - authoring
+  #   available_by_default: no
+  - type: link
+    location: introduction
+  - type: link
+    location: arithmetic
+  - type: link
+    location: booleans
+  - type: link
+    location: conditionals
+  - type: link
+    location: none
+  - type: link
+    location: strings
+  - type: link
+    location: loops
+  - type: link
+    location: tuples
+  - type: link
+    location: named-tuples
+  - type: link
+    location: lists
+  - type: link
+    location: sets
+  - type: link
+    location: dictionaries
+  - type: link
+    location: objects
+  - type: link
+    location: file-io
+  - type: link
+    location: debugging

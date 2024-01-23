@@ -1,0 +1,102 @@
+type: section
+name: Sets
+id: sets
+contents:
+  - name: Introduction
+    type: explanation
+    id: introduction
+    documentation:
+      en: explanation-introduction.en.md
+    topics:
+      introduces:
+        - sets
+        - set length
+        - set.add
+        - set.remove
+      must_come_after:
+        - lists
+  - name: Contains Duplicates
+    type: exercise
+    id: contains-duplicates
+    documentation:
+      en: assignment-contains-duplicates.en.md
+    difficulty: 2
+    judge:
+      type: pytest
+      file: test-contains-duplicates.py
+    topics:
+      must_come_after:
+        - list length
+        - set length
+        - lists
+        - sets
+  - name: Remove Duplicates
+    type: exercise
+    id: remove-duplicates
+    documentation:
+      en: assignment-remove-duplicates.en.md
+    difficulty: 3
+    judge:
+      type: pytest
+      file: test-remove-duplicates.py
+    topics:
+      must_come_after:
+        - sets
+        - lists
+        - list.append
+        - set.add
+  - name: Spellcheck
+    type: exercise
+    id: spellcheck
+    documentation:
+      en: assignment-spellcheck.en.md
+    difficulty: 3
+    judge:
+      type: pytest
+      file: test-spellcheck.py
+    topics:
+      must_come_after:
+        - sets
+        - string.lower
+        - string.split
+        - string.splitlines
+  - name: Find Duplicates
+    type: exercise
+    id: find-duplicates
+    documentation:
+      en: assignment-find-duplicates.en.md
+    difficulty: 4
+    judge:
+      type: pytest
+      file: test-find-duplicates.py
+    topics:
+      must_come_after:
+        - for loop
+        - lists
+        - sets
+  - name: More Operations
+    type: explanation
+    id: operations
+    documentation:
+      en: explanation-operations.en.md
+    topics:
+      introduces:
+        - set.intersection
+        - set.union
+        - set.isdisjoint
+        - set.issuperset
+        - set.issubset
+  - name: Plagiarism
+    type: exercise
+    id: plagiarism
+    documentation:
+      en: assignment-plagiarism.en.md
+    difficulty: 2
+    judge:
+      type: pytest
+      file: test-plagiarism.py
+    topics:
+      must_come_after:
+        - set.intersection
+        - strings
+        - string.splitlines

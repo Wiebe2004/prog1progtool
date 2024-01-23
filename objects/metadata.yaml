@@ -1,0 +1,127 @@
+type: section
+name: Objects
+id: objects
+contents:
+  - name: Introduction
+    type: explanation
+    id: introduction
+    documentation:
+      en: explanation-introduction.en.md
+  - name: Classes
+    type: explanation
+    id: classes
+    documentation:
+      en: explanation-classes.en.md
+    topics:
+      introduces:
+        - classes
+        - __init__
+  - name: Pair
+    type: exercise
+    id: pair
+    documentation:
+      en: assignment-pair.en.md
+    difficulty: 1
+    judge:
+      type: pytest
+      file: test-pair.py
+    topics:
+      must_come_after:
+        - classes
+        - __init__
+  - name: Constructor Parameters
+    type: explanation
+    id: constructor
+    documentation:
+      en: explanation-constructor-parameters.en.md
+  - name: Position
+    type: exercise
+    id: position
+    documentation:
+      en: assignment-position.en.md
+    difficulty: 1
+    judge:
+      type: pytest
+      file: test-position.py
+  - name: Methods
+    type: explanation
+    id: methods
+    documentation:
+      en: explanation-methods.en.md
+    topics:
+      introduces:
+        - methods
+  - name: Interval
+    type: exercise
+    id: interval
+    documentation:
+      en: assignment-interval.en.md
+    difficulty: 3
+    judge:
+      type: pytest
+      file: test-interval.py
+  - name: Private Members
+    type: explanation
+    id: private
+    documentation:
+      en: explanation-private.en.md
+  - name: Password
+    type: exercise
+    id: password
+    documentation:
+      en: assignment-password.en.md
+    difficulty: 2
+    judge:
+      type: pytest
+      file: test-password.py
+  - name: Hiding Data
+    type: explanation
+    id: hiding-data
+    documentation:
+      en: explanation-hiding-data.en.md
+  - name: Averager
+    type: exercise
+    id: averager
+    documentation:
+      en: assignment-averager.en.md
+    difficulty: 2
+    judge:
+      type: pytest
+      file: test-averager.py
+  - name: Properties
+    type: explanation
+    id: properties
+    documentation:
+      en: explanation-properties.en.md
+  - name: Counter
+    type: exercise
+    id: counter
+    documentation:
+      en: assignment-counter.en.md
+    difficulty: 1
+    judge:
+      type: pytest
+      file: test-counter.py
+    topics:
+      must_come_after:
+        - classes
+        - properties
+        - private
+  - name: Shooting Units
+    type: exercise
+    id: shooting-units
+    documentation:
+      en: assignment-shooting-units.en.md
+    difficulty: 3
+    judge:
+      type: pytest
+      file: test-shooting-units.py
+  - name: Tweet
+    type: exercise
+    id: tweet
+    documentation:
+      en: assignment-tweet.en.md
+    difficulty: 2
+    judge:
+      type: pytest
+      file: test-tweet.py

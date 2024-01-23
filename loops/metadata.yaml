@@ -1,0 +1,176 @@
+type: section
+name: Loops
+id: loops
+contents:
+  - name: While
+    type: explanation
+    id: while
+    documentation:
+      en: explanation-while.en.md
+    topics:
+      introduces:
+        - while loop
+  - name: Print Numbers
+    type: exercise
+    id: print-numbers
+    documentation:
+      en: assignment-print-numbers.en.md
+    difficulty: 2
+    judge:
+      type: pytest
+      file: test-print-numbers.py
+  - name: Hungry Thanos
+    type: exercise
+    id: thanos
+    documentation:
+      en: assignment-thanos.en.md
+    difficulty: 2
+    judge:
+      type: pytest
+      file: test-thanos.py
+    topics:
+      must_come_after:
+        - while loop
+        - floor division
+  - name: Sum of Inputs
+    type: exercise
+    id: sum-input
+    documentation:
+      en: assignment-sum-input.en.md
+    difficulty: 3
+    judge:
+      type: pytest
+      file: test-sum-input.py
+    topics:
+      must_come_after:
+        - while loop
+        - print
+        - input
+  - name: For
+    type: explanation
+    id: for
+    documentation:
+      en: explanation-for.en.md
+    topics:
+      introduces:
+        - for loop
+        - range
+  - name: Factorial
+    type: exercise
+    id: factorial
+    documentation:
+      en: assignment-factorial.en.md
+    difficulty: 2
+    judge:
+      type: pytest
+      file: test-factorial.py
+    topics:
+      must_come_after:
+        - range
+        - assignment
+        - for loop
+  - name: Nesting
+    type: explanation
+    id: nesting
+    documentation:
+      en: explanation-nesting.en.md
+    topics:
+      must_come_after:
+        - for loop
+      introduces:
+        - nesting
+  - name: RPG
+    type: exercise
+    id: rpg
+    documentation:
+      en: assignment-rpg.en.md
+    difficulty: 2
+    judge:
+      type: pytest
+      file: test-rpg.py
+    topics:
+      introduces: []
+      must_come_after:
+        - range
+        - assignment
+        - for loop
+        - nesting
+  - name: Investment
+    type: exercise
+    id: invest
+    documentation:
+      en: assignment-invest.en.md
+    difficulty: 3
+    judge:
+      type: pytest
+      file: test-invest.py
+  - name: Is Prime
+    type: exercise
+    id: is-prime
+    documentation:
+      en: assignment-is-prime.en.md
+    difficulty: 3
+    judge:
+      type: pytest
+      file: test-is-prime.py
+    topics:
+      must_come_after:
+        - modulo
+        - while loop
+  - name: GCD
+    type: exercise
+    id: gcd
+    documentation:
+      en: assignment-gcd.en.md
+    difficulty: 3
+    judge:
+      type: pytest
+      file: test-gcd.py
+    topics:
+      must_come_after:
+        - abs
+        - max
+        - modulo
+        - while loop
+  - name: String Iteration
+    type: explanation
+    id: string-iteration
+    documentation:
+      en: explanation-string-iteration.en.md
+    topics:
+      introduces:
+        - string iteration
+  - name: Valid Parentheses
+    type: exercise
+    id: valid-parentheses
+    documentation:
+      en: assignment-valid-parentheses.en.md
+    difficulty: 4
+    judge:
+      type: pytest
+      file: test-valid-parentheses.py
+    topics:
+      must_come_after:
+        - string iteration
+  - name: Walrus Operator
+    type: explanation
+    id: walrus
+    documentation:
+      en: explanation-walrus.en.md
+    topics:
+      introduces:
+        - walrus operator
+  - name: Removing Backspaces
+    type: exercise
+    id: normalize
+    documentation:
+      en: assignment-remove-backspaces.en.md
+    difficulty: 3
+    judge:
+      type: pytest
+      file: test-remove-backspaces.py
+    topics:
+      must_come_after:
+        - strings
+        - escape characters
+        - string iteration

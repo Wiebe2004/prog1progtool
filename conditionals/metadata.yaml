@@ -1,0 +1,99 @@
+type: section
+name: Conditionals
+id: conditionals
+contents:
+  - name: If
+    type: explanation
+    id: if
+    documentation:
+      en: explanation-if.en.md
+    topics:
+      introduces:
+        - if
+  - name: Total Cost
+    type: exercise
+    id: total-cost
+    documentation:
+      en: assignment-total-cost.en.md
+    difficulty: 2
+    judge:
+      type: pytest
+      file: test-total-cost.py
+    topics:
+      must_come_after:
+        - augmented assignment
+        - if
+  - name: Else
+    type: explanation
+    id: else
+    documentation:
+      en: explanation-else.en.md
+    topics:
+      introduces:
+        - else
+  - name: Absolute Value
+    id: abs
+    documentation:
+      en: assignment-abs.en.md
+    type: exercise
+    difficulty: 2
+    judge:
+      type: pytest
+      file: test-abs.py
+    topics:
+      introduces:
+        - abs
+  - name: Elif
+    type: explanation
+    id: elif
+    documentation:
+      en: explanation-elif.en.md
+    topics:
+      introduces:
+        - elif
+  - name: Sign
+    type: exercise
+    id: sign
+    documentation:
+      en: assignment-sign.en.md
+    difficulty: 2
+    judge:
+      type: pytest
+      file: test-sign.py
+    topics:
+      must_come_after:
+        - if
+  - name: Rock Paper Scissors
+    type: exercise
+    id: rock-paper-scissors
+    documentation:
+      en: assignment-rock-paper-scissors.en.md
+    difficulty: 3
+    judge:
+      type: pytest
+      file: test-rock-paper-scissors.py
+    topics:
+      must_come_after:
+        - if
+  - name: Player Movement
+    type: exercise
+    id: player-movement
+    documentation:
+      en: assignment-player-movement.en.md
+    difficulty: 3
+    judge:
+      type: pytest
+      file: test-player-movement.py
+    topics:
+      must_come_after:
+        - if
+        - local variables
+  - name: Movie Ticket
+    type: exercise
+    id: movie-ticket
+    documentation:
+      en: assignment-movie-ticket.en.md
+    difficulty: 3
+    judge:
+      type: pytest
+      file: test-movie-ticket.py

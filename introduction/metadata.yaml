@@ -1,0 +1,37 @@
+type: section
+name: Introduction
+id: introduction
+contents:
+  - name: Python Shell
+    id: shell
+    documentation:
+      en: explanation-launch-shell.en.md
+    type: explanation
+    topics:
+      introduces:
+        - python shell
+  - name: Python as Calculator
+    type: explanation
+    id: calculator
+    documentation:
+      en: explanation-calculator.en.md
+    topics:
+      introduces:
+        - comments
+  - name: Scripts
+    type: explanation
+    id: scripts
+    documentation:
+      en: explanation-scripts.en.md
+    topics:
+      introduces:
+        - print
+  - name: Running Tests
+    type: exercise
+    id: running-tests
+    documentation:
+      en: assignment-running-tests.en.md
+    difficulty: 1
+    judge:
+      type: pytest
+      file: test-say-hello.py

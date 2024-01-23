@@ -1,0 +1,181 @@
+type: section
+name: Lists
+id: lists
+contents:
+  - name: Introduction
+    type: explanation
+    id: introduction
+    documentation:
+      en: explanation-introduction.en.md
+    topics:
+      introduces:
+        - lists
+        - list length
+      must_come_after:
+        - tuples
+  - name: Updating
+    type: explanation
+    id: updating
+    documentation:
+      en: explanation-updating.en.md
+  - name: Double Items
+    type: exercise
+    id: double-items
+    documentation:
+      en: assignment-double-items.en.md
+    difficulty: 2
+    judge:
+      type: pytest
+      file: test-double-items.py
+  - name: Adding Items
+    type: explanation
+    id: adding
+    documentation:
+      en: explanation-adding.en.md
+    topics:
+      introduces:
+        - list.append
+        - list.insert
+      must_come_after:
+        - lists
+  - name: Pad Right
+    type: exercise
+    id: pad-right
+    documentation:
+      en: assignment-pad-right.en.md
+    difficulty: 2
+    judge:
+      type: pytest
+      file: test-pad-right.py
+  - name: Removing Items
+    type: explanation
+    id: removing
+    documentation:
+      en: explanation-removing.en.md
+    topics:
+      introduces:
+        - del
+        - list.pop
+        - list.remove
+      must_come_after:
+        - lists
+  - name: Remove All
+    type: exercise
+    id: remove-all
+    documentation:
+      en: assignment-remove-all.en.md
+    difficulty: 3
+    judge:
+      type: pytest
+      file: test-remove-all.py
+  - name: Roman Numerals
+    type: exercise
+    id: roman-numerals
+    documentation:
+      en: assignment-roman-numerals.en.md
+    difficulty: 5
+    judge:
+      type: pytest
+      file: test-roman-numerals.py
+    topics:
+      must_come_after:
+        - strings
+        - lists
+        - while loop
+  - name: Compact
+    type: exercise
+    id: compact
+    documentation:
+      en: assignment-compact.en.md
+    difficulty: 3
+    judge:
+      type: pytest
+      file: test-compact.py
+    topics:
+      must_come_after:
+        - lists
+        - None
+        - del
+  - name: Remove Runs
+    type: exercise
+    id: remove-runs
+    documentation:
+      en: assignment-remove-runs.en.md
+    difficulty: 3
+    judge:
+      type: pytest
+      file: test-remove-runs.py
+  - name: Matching Brackets
+    type: exercise
+    id: matching-brackets
+    documentation:
+      en: assignment-matching-brackets.en.md
+    difficulty: 4
+    judge:
+      type: pytest
+      file: test-matching-brackets.py
+    topics:
+      must_come_after:
+        - lists
+        - list.append
+        - list.pop
+  - name: Making Teams
+    type: exercise
+    id: make-teams
+    documentation:
+      en: assignment-make-teams.en.md
+    difficulty: 3
+    judge:
+      type: pytest
+      file: test-make-teams.py
+    topics:
+      must_come_after:
+        - loops
+        - list.append
+        - modulo
+  - name: Ranking Table
+    type: exercise
+    id: ranking-table
+    documentation:
+      en: assignment-ranking-table.en.md
+    difficulty: 4
+    judge:
+      type: pytest
+      file: test-ranking-table.py
+    topics:
+      must_come_after:
+        - lists
+        - max
+        - string.ljust
+        - string.rjust
+  - name: References
+    type: explanation
+    id: references
+    documentation:
+      en: explanation-references.en.md
+    topics:
+      introduces:
+        - references
+        - is
+  - name: Concatenate
+    type: exercise
+    id: concatenate
+    documentation:
+      en: assignment-concatenate.en.md
+    difficulty: 3
+    judge:
+      type: pytest
+      file: test-concatenate.py
+    topics:
+      must_come_after:
+        - is
+  - name: Conversions
+    type: explanation
+    id: conversions
+    documentation:
+      en: explanation-conversions.en.md
+  - name: Strings
+    type: explanation
+    id: strings
+    documentation:
+      en: explanation-strings.en.md

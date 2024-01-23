@@ -1,0 +1,309 @@
+type: section
+name: Strings
+id: strings
+contents:
+  - name: Introduction
+    type: explanation
+    id: strings
+    documentation:
+      en: explanation-introduction.en.md
+    topics:
+      introduces:
+        - strings
+  - name: String Interpolation
+    type: explanation
+    id: interpolation
+    documentation:
+      en: explanation-string-interpolation.en.md
+    topics:
+      must_come_after:
+        - strings
+      introduces:
+        - string interpolation
+  - name: Greet
+    type: exercise
+    id: greet
+    documentation:
+      en: assignment-greet.en.md
+    difficulty: 2
+    judge:
+      type: pytest
+      file: test-greet.py
+  - name: Position Formatting
+    type: exercise
+    id: format-position
+    documentation:
+      en: assignment-format-position.en.md
+    difficulty: 2
+    judge:
+      type: pytest
+      file: test-format-position.py
+    topics:
+      must_come_after:
+        - string interpolation
+  - name: Console Input
+    type: explanation
+    id: input
+    documentation:
+      en: explanation-input.en.md
+    topics:
+      must_come_after:
+        - strings
+        - print
+      introduces:
+        - input
+  - name: Interactive Greet
+    type: exercise
+    id: interactive-greet
+    documentation:
+      en: assignment-interactive-greet.en.md
+    difficulty: 3
+    judge:
+      type: pytest
+      file: test-interactive-greet.py
+  - name: Runnable Scripts
+    type: explanation
+    id: runnable-scripts
+    documentation:
+      en: explanation-runnable-scripts.en.md
+    topics:
+      introduces:
+        - "__name__"
+        - shebang
+  - name: Greet Script
+    type: exercise
+    id: greet-script
+    documentation:
+      en: assignment-greet-script.en.md
+    difficulty: 1
+    judge:
+      type: pytest
+      file: test-interactive-greet.py
+    topics:
+      must_come_after:
+        - "__name__"
+        - shebang
+  - name: Conversion
+    type: explanation
+    id: conversion
+    documentation:
+      en: explanation-conversion.en.md
+    topics:
+      must_come_after:
+        - strings
+      introduces:
+        - conversion to int
+        - conversion to float
+        - conversion to bool
+  - name: Tip Calculator
+    type: exercise
+    id: tip-calculator
+    documentation:
+      en: assignment-tip-calculator.en.md
+    difficulty: 3
+    judge:
+      type: pytest
+      file: test-tip-calculator.py
+    topics:
+      must_come_after:
+        - conversion to int
+        - "__name__"
+        - shebang
+  - name: Operators
+    type: explanation
+    id: operators
+    documentation:
+      en: explanation-operators.en.md
+    topics:
+      must_come_after:
+        - strings
+      introduces:
+        - string operators
+        - string comparison
+        - string length
+  - name: Mask
+    type: exercise
+    id: mask
+    documentation:
+      en: assignment-mask.en.md
+    difficulty: 2
+    judge:
+      type: pytest
+      file: test-mask.py
+    topics:
+      must_come_after:
+        - string operators
+        - string length
+  - name: Escape Characters
+    type: explanation
+    id: escape-characters
+    documentation:
+      en: explanation-escape-characters.en.md
+    topics:
+      must_come_after:
+        - strings
+      introduces:
+        - escape characters
+  - name: Underline
+    type: exercise
+    id: underline
+    documentation:
+      en: assignment-underline.en.md
+    difficulty: 2
+    judge:
+      type: pytest
+      file: test-underline.py
+    topics:
+      must_come_after:
+        - escape characters
+        - string operators
+        - string length
+  - name: Box
+    type: exercise
+    id: box
+    documentation:
+      en: assignment-box.en.md
+    difficulty: 3
+    judge:
+      type: pytest
+      file: test-box.py
+    topics:
+      must_come_after:
+        - escape characters
+        - string operators
+        - string length
+  - name: Indexing
+    type: explanation
+    id: indexing
+    documentation:
+      en: explanation-indexing.en.md
+    topics:
+      must_come_after:
+        - strings
+      introduces:
+        - string indexing
+  - name: Last Character
+    type: exercise
+    id: last-character
+    documentation:
+      en: assignment-last-character.en.md
+    difficulty: 1
+    judge:
+      type: pytest
+      file: test-last-character.py
+  - name: Negative Indices
+    type: explanation
+    id: negative-indices
+    documentation:
+      en: explanation-negative-indices.en.md
+  - name: Is Student Id?
+    type: exercise
+    id: is-student-id
+    documentation:
+      en: assignment-is-student-id.en.md
+    difficulty: 3
+    judge:
+      type: pytest
+      file: test-is-student-id.py
+    topics:
+      must_come_after:
+        - string indexing
+        - string comparison
+  - name: Slicing
+    type: explanation
+    id: slicing
+    documentation:
+      en: explanation-slicing.en.md
+    topics:
+      must_come_after:
+        - strings
+        - string indexing
+      introduces:
+        - string slicing
+  - name: Parsing Dates
+    type: exercise
+    id: parse-date
+    documentation:
+      en: assignment-parse-date.en.md
+    difficulty: 3
+    judge:
+      type: pytest
+      file: test-parse-date.py
+    topics:
+      must_come_before:
+        - tuples
+      must_come_after:
+        - string slicing
+        - conversion to int
+  - name: Fixing Dates
+    type: exercise
+    id: fix-date
+    documentation:
+      en: assignment-fix-date.en.md
+    difficulty: 3
+    judge:
+      type: pytest
+      file: test-fix-date.py
+    topics:
+      must_come_after:
+        - string slicing
+        - string interpolation
+  - name: Palindrome
+    type: exercise
+    id: palindrome
+    documentation:
+      en: assignment-palindrome.en.md
+    difficulty: 2
+    judge:
+      type: pytest
+      file: test-palindrome.py
+    topics:
+      must_come_after:
+        - string slicing
+  - name: Methods
+    type: explanation
+    id: methods
+    documentation:
+      en: explanation-methods.en.md
+    topics:
+      must_come_after:
+        - strings
+      introduces:
+        - string.find
+        - string.lower
+        - string.upper
+        - string.startswith
+        - string.endswith
+        - string.strip
+        - string.lstrip
+        - string.rstrip
+        - string.ljust
+        - string.rjust
+        - dir
+  - name: Is Capitalized?
+    type: exercise
+    id: is-capitalized
+    documentation:
+      en: assignment-is-capitalized.en.md
+    difficulty: 3
+    judge:
+      type: pytest
+      file: test-is-capitalized.py
+    topics:
+      must_come_after:
+        - string.upper
+        - string.lower
+        - string slicing
+  - name: Parse Position
+    type: exercise
+    id: parse-position
+    documentation:
+      en: assignment-parse-position.en.md
+    difficulty: 3
+    judge:
+      type: pytest
+      file: test-parse-position.py
+    topics:
+      must_come_after:
+        - string.find
+        - string slicing
